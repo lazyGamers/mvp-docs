@@ -11,7 +11,7 @@ Each skill has 10 levels, however a player can't master all of them at same time
 
 Writing is required for holding some learned roles like professor or judge.
 
-At skill 1 you also get option to write scrolls.
+At skill 1 you also get option to write scrolls. Higher skill also allows you to study other courses faster.
 
 ### Administration
 
