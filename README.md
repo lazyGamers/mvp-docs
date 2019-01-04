@@ -19,5 +19,8 @@ To contribute addition, edit, removal, clone repository and push to new branch (
 
 Pull requests not following this rule will be declined.
 
+## Analysis
+At end of every document it is to be written analysis, determining what should be part of mvp and what part of future plans.
+
 # Questions, debates
 If you have any questions, or wish to debate something, use forum, or open [Issue](https://github.com/lazyGamers/mvp-docs/issues).

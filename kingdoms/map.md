@@ -44,3 +44,6 @@ Travelling inside province is fast (I), from one province to another takes longe
 ### Sea routes
 It is possible to travel by sea, but only from one port to other connected ports (TBD: connections pre-defined, or player-defined?)
 
+# Analysis
+* mvp: map with provinces, map with towns, travel, sea travel
+* phase 1: province revenue

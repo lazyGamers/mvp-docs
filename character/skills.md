@@ -39,3 +39,7 @@ With higher skill you can travel faster.
 ## Learning skills
 
 Skills can be learned by performing a certain job or by studying it in university.
+
+# Analysis
+* mvp: skills functionality, maybe not all skills
+* phase 1: add skills, options to train skills

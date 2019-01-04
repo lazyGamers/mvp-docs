@@ -76,3 +76,6 @@ King
 #### Communal buildings
 Palace for king's actions, Court & prison for administering justice, walls for improved defense bonus, University for learning skills.
 
+# Analysis
+* mvp: no limit on towns, dinamic display of towns in province(!), town types
+* phase 1: limit on towns in province

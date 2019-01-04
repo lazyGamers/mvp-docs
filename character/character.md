@@ -12,3 +12,6 @@ More info on [skills page](https://github.com/lazyGamers/mvp-docs/blob/master/ch
 Player can carry only a certain weight of items.
 
 Money is not part of inventory and cannot be stored anywhere. (idea for bank?)
+
+# Analysis
+* mvp: identity, inventory, skills
