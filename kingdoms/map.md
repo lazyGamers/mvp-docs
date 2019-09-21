@@ -1,49 +1,32 @@
 # Map
 
-Map is comprised of multiple provinces.
+## Content
 
-## Province
-Province is an abstract entity, comprised of towns. It is under control of one kingdom. Each province has its own climate, geography and natural resource.
+Map would be zoomable, with fixed locations to found a town. Spots would be drawn to resemble historic places.
 
-## Town
+![example_map](../media/map_example.png)
 
-Town is an entity where characters can take residence and use functions according to type of town.
-There are following types of towns:
+Each town location has land around it, that forms a province together with it. (In rest of this document, town and province can be used interchangeably).
 
-| Type     | Leader |  Function         |  Communal buildings                      | Purchasable buildings | Description                                       |
-|----------|--------|-------------------|------------------------------------------|-----------------------|---------------------------------------------------|
-| Village  | x      | farming           | Wooden board, church                     | farm, field, house    |  town for gathering resources                     |
-| City     | Mayor  | manufactoring     | town hall, market, church, court, prison | shop, house           | town for producing goods                          |
-| Port     | Mayor  | travel            | docks                                    | house, pier           | town for travelling on sea to other places        |
-| Bishopry | Bishop | clerical          | cathedral, abbey                         | house                 | town for religious activities                     |
-|  Castle  | Noble | military          | castle, barracks, walls, quarters        | armorer, shieldmaker  | town for producing military equipment and defence |
-| Capital  | King   | center of kingdom | palace, court, prison, walls             | house                 | town for king's actions                           |
+![example_map_with_provinces](../media/map_example_with_provinces.png)
 
-More in [town page](https://github.com/lazyGamers/mvp-docs/blob/master/kingdoms/towns.md)
+At the start, there will be few towns founded by administration, the majority of the map will have to be created by players through gameplay.
 
-## Province composition
+### Towns 
 
-Each province contains at least one town. Town type can be changed with build action. Town can also be abandoned (if it is not the last town in province).
-King can also contruct new towns. Having too many towns negatively affects income from that province.
+More in [Town page](towns.md)
 
-## Province revenue
-Each province generates X silver per week.
-If there are more towns than there are people in province, the X amount is lowered (min 0).
+### Travelling
 
-To get an acceptable number of towns you calculate:
+The main travelling routes will be on the roads.
 
-`T = max(1, floor(P / 3))`, where P is province population.
+Roads must be built. They can be built only with approval of both province leaders. They will cost some resources and working hours. Construction can be done from both towns.
 
-Example: province has 10 people --> 3 towns, province has 1 person --> 1 town, province has 0 people --> 1 town (but X = 0)
+Player will be able to travel between adjacent provinces even if there is no road, but travel time will be drastically increased. (Shortest route may not necessarily be the fastest).
 
-For each town over the limit the X amount is reduced by 20%.
 
-## Travelling
-Travelling inside province is fast (I), from one province to another takes longer (O = 8 x I).
+## Tech
 
-### Sea routes
-It is possible to travel by sea, but only from one port to other connected ports (TBD: connections pre-defined, or player-defined?)
+Map will be drawn using SVG, so we can dinamically display roads and some other stuff (sieges?)
 
-# Analysis
-* mvp: map with provinces, map with towns, travel, sea travel
-* phase 1: province revenue
+

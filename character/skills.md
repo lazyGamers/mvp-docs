@@ -1,5 +1,7 @@
 # Skills
 
+**ALERT: skills need reworking, subject to change.**
+
 There is a number of skills, some are used for holding positions, while others are used to better perform at some actions.
 
 ## Limit
