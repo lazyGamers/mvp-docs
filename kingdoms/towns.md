@@ -24,9 +24,19 @@ Each town has limited number of building spots inside and outside of walls. Outs
 
 All level of alliances are treated equally by the game system, albeit with different requirements. Higher levels are mostly abstract entities. They give a leader a special status and additional actions, but do not require/create any new buildings. 
 
+#### Creating higher level
+
+Town leader can invite another entity to form higher level under his guidance.
+
+Town A invites Town B to form Duchy C --> Baron A becomes Duke C, Baron B remains Baron B
+
+Town leader can specify in peace treaty to form higher level under his guidance.
+
+Kingdom A sends peace treaty to Kingdom B to form Empire C. King A becomes Emperor C, King B remains King B
+
 #### Duchy
 
-Town leader (baron) can proclaim itself a duchy (needs to match requirements). It can then invite all the neighbouring towns into its duchy. Should they accept, they will belong to duchy. A duke can also start a war on neighbouring town in order to bring them to duchy by force. Duchy can have at most 2 other towns be a part of it.
+Duke can invite all the neighbouring towns into its duchy. Should they accept, they will belong to duchy. A duke can also start a war on neighbouring town in order to bring them to duchy by force. Duchy can have at most 2 other towns be a part of it.
 
 #### Kingdom
 
