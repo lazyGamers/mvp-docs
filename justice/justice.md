@@ -7,6 +7,16 @@ Any player can open a criminal procedure at court against someone.
 
 A judge passes verdict and sets punishment.
 
+## Laws
+
+A law can be anything, but it must not be ambigous. Punishment and target must be clearly specified. 
+
+## Trial
+
+Trial is started from courthouse, and is auto-created on forum, but all subsequent communication is done on forum.
+
+Judge can pronounce verdict only based on laws, existing before crime was commited. 
+
 ## Punishment
 
 * Fine (money, items)
@@ -33,13 +43,3 @@ A criminal is given some time to pay the fine. If fine is not delivered in time,
 ### Property confiscation
 
 Property can be confiscated by guard. Judge must specify exactly which properties will be confiscated when setting punishment (and only in same town as judge). If criminal is in cooperative mode, his property is confiscated. If he is in defiant mode, guard must fight him to confiscate it (if criminal is not present in town, no fight needed for confiscation.). If he defends property, there is cooldown (2 weeks?) until guards can try to confiscate it again.
-
-## Laws
-
-A law can be anything, but it must not be ambigous. Punishment and target must be clearly specified. 
-
-## Trial
-
-Trial is started from courthouse, and is auto-created on forum, but all subsequent communication is done on forum.
-
-Judge can pronounce verdict only based on laws, existing before crime was commited. 
