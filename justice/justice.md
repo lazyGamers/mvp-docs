@@ -9,7 +9,7 @@ A judge passes verdict and sets punishment.
 
 ## Laws
 
-A law can be anything, but it must not be ambigous. Punishment and target must be clearly specified. 
+A law can be anything, but it must not be ambiguous. Punishment and target must be clearly specified. 
 
 ## Trial
 
