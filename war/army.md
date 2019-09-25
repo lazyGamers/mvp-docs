@@ -42,9 +42,13 @@ If a player dies in sea battle, he passes out and is thrown to random near coast
 
 Mercenaries operate like army, with specialties - TODO
 
+## Town militia
+
+Town militia can be created even in peace times and has advantage of being already mobilized, however its members cannot move out of town (they are put on town payroll) and its members cannot join an army while they are part of militia.
+
 ## Ending war
 
-More in [diplomacy](./diplomacy)
+More in [diplomacy](./diplomacy.md)
 
 ## Battle
 
