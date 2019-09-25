@@ -48,7 +48,7 @@ Town militia can be created even in peace times and has advantage of being alrea
 
 ## Ending war
 
-More in [diplomacy](./diplomacy.md)
+More in [diplomacy](./diplomacy.md#ending-war)
 
 ## Battle
 
