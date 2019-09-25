@@ -4,7 +4,7 @@
 
 ### Founding town
 
-Town or province is a physical spot on a map. First person who gets there can found a town (needs resources and work hours) and he will become Baron of that land.
+Town or province is a physical spot on a map. First person who gets there can found a town (needs resources and work hours - building motte & bailey) and he will become Baron of that land. After that, players can join that town.
 
 If previously existing town has been abandoned (all players left it), a new person can take over it and he gets to keep most of structures - but for a limited time only. When too much time passes, the town crumbles and spot needs to be cleaned up first (action which grants resources), before it can be used to re-found the town.
 
@@ -14,15 +14,19 @@ Town is where buildings can be built. This includes walls for defence; farms, fi
 
 List of buildings: todo
 
+motte & bailey can be upgraded to castle, which grants certain bonuses (defence, baron -> count upgrade, ...)
+
 Actions related to government role are not tied to building, but to character - status of kingdom, etc. can be lost or downgraded with buildings intact.
+
+Each town has limited number of building spots inside and outside of walls. Outside buildings: houses, farms, fields, mines, docks, stables; inside buildings: palaces, houses, shops
 
 ### Higher levels of towns (alliances)
 
-All level of alliances are treated equally by the game system, albeit with different requirements
+All level of alliances are treated equally by the game system, albeit with different requirements. Higher levels are mostly abstract entities. They give a leader a special status and additional actions, but do not require/create any new buildings. 
 
 #### Duchy
 
-Town leader (baron) can proclaim itself a duchy (needs to match requirements). It can then invite all the neighbouring towns into its duchy. Should they accept, they will belong to duchy. A duke can also start a war on neighbouring town in order to bring them to duchy by force.
+Town leader (baron) can proclaim itself a duchy (needs to match requirements). It can then invite all the neighbouring towns into its duchy. Should they accept, they will belong to duchy. A duke can also start a war on neighbouring town in order to bring them to duchy by force. Duchy can have at most 2 other towns be a part of it.
 
 #### Kingdom
 
@@ -31,6 +35,10 @@ Same as with duchy, but different towns and duchies can belong to kingdom. Can i
 #### Empire
 
 Same as with kingdom, can comprise of different towns, duchies and kingdoms.
+
+#### Losing status
+
+If an entity doesn't fulfill requirements for its status, it loses that status (kingdom needs 2 duchies, so if it loses one, it is downgraded to duchy)
 
 #### Rationale for this system
 

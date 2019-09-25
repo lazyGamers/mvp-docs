@@ -2,7 +2,7 @@
 
 ## Content
 
-Map would be zoomable, with fixed locations to found a town. Spots would be drawn to resemble historic places.
+Map would be zoomable, with fixed locations (unclaimed land) to found a town. Spots would be drawn to resemble historic places. This achieves that map is not over or under crowded and retain wilderness feeling of middle age.
 
 ![example_map](../media/map_example.png)
 
@@ -24,6 +24,7 @@ Roads must be built. They can be built only with approval of both province leade
 
 Player will be able to travel between adjacent provinces even if there is no road, but travel time will be drastically increased. (Shortest route may not necessarily be the fastest).
 
+Speed of travelling also depends on terrain.
 
 ## Tech
 
