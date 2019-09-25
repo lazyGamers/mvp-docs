@@ -43,3 +43,7 @@ A criminal is given some time to pay the fine. If fine is not delivered in time,
 ### Property confiscation
 
 Property can be confiscated by guard. Judge must specify exactly which properties will be confiscated when setting punishment (and only in same town as judge). If criminal is in cooperative mode, his property is confiscated. If he is in defiant mode, guard must fight him to confiscate it (if criminal is not present in town, no fight needed for confiscation.). If he defends property, there is cooldown (2 weeks?) until guards can try to confiscate it again.
+
+## Sentence expiration
+
+If punishment is not executed in 2 weeks (?) from sentence, the case expires and the defendant is free from punishment
